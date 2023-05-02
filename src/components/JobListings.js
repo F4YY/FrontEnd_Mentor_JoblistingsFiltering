@@ -123,7 +123,6 @@ export const JobListings = () => {
 
   return (
     <Container>
-      <>
       <Header/>
         {toggle && (
           <Searchbar>
@@ -207,7 +206,6 @@ export const JobListings = () => {
       <JobList
         jobs={filteredJobs}
       />
-      </>
       <footer>
         <Attribution>
             <AttributionA>
